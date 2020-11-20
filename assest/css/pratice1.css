@@ -1,0 +1,31 @@
+p{
+
+    color: hotpink;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+h2{
+    font-size: 36px;
+    text-align: center;
+    color: lightsalmon;
+}
+
+h3{
+    border-color: greenyellow;
+    background-color: red;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-width: 100px;
+    border-radius: 50px;
+    border-style: solid;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}

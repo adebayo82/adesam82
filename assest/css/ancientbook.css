@@ -1,0 +1,21 @@
+img{
+    height: 80%;
+    width: 80%;
+    border: 8px
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    column-gap: 20px;
+}
+
+.h3{
+    color: goldenrod;
+}
+strong{
+    color: teal;
+}
+p span{
+    font-weight: bold;
+}

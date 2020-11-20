@@ -1,0 +1,37 @@
+
+img{
+    width: 100%;
+    border: 8px
+
+}
+.h3{
+    color: goldenrod;
+}
+
+        .container{
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 10px;
+        }
+        
+        .h3{
+            color: goldenrod;
+        }
+        strong{
+            color: teal;
+        }
+
+        ul li{
+            color: teal;
+         }
+
+         .change{
+            color: teal;
+         }
+
+         .change{
+            color: teal;
+         }
+         p{
+             color: black;
+         }

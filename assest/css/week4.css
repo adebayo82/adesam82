@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+    display: flex;
+}
+
+#container #left{
+   
+    width: 300px;
+    float: left;
+    background-color: gray;
+    color: black;
+    padding: 40px;
+}
+h1{
+    color: gold;
+}
+
+#container #right{
+   
+    width: 800px;
+    float: right;
+    
+   
+    color: black;
+    margin: 80px;
+}
+
+h2{
+    color: gold;
+}
+p{
+    color: green
+}
+
+footer {
+    display: flex;
+
+}
+
+h6{
+    color: black;
+}
+
+h3{
+    color: indigo;
+}
+
+.success{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.success h5{
+    padding: 20px;
+    color: darkblue;
+
+}

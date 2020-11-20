@@ -1,0 +1,41 @@
+
+h1{
+    border: 13px solid goldenrod;
+}
+
+.vertical{
+    background-color: rgb(236, 222, 222);
+  }
+
+  img{
+    width: 80%;
+    border: 8px;
+  }
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0px;
+}
+
+.h3{
+    color: goldenrod;
+}
+
+strong{
+    color: teal;
+}
+
+p span{
+    font-weight: bold;
+}
+
+
+
+    

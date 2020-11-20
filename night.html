@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assest/css/night.css">
+</head>
+<body>
+    <form action="">
+        <label for="">username</label>
+        <input type="text" placeholder="enter your name" id="name"><br><br>
+        <label for="">password</label>
+        <input type="password" id="password">
+        <br><br>
+        <input type="button" value="subimt" onclick="transit()">
+      
+    
+    </form>
+    <br>
+
+
+
+    <table border="1" id="come">
+        <tr>
+            <th>SN</th>
+            <th>username</th>
+            <th>password</th>
+        </tr>
+
+
+        <tr></tr>
+    </table>
+       
+    
+
+    <script>
+
+
+var no = 0;
+function transit(){
+    no = no +1;
+
+
+    var firstname = document.getElementById("name").value;
+    var pass = document.getElementById("password").value;
+    document.getElementById("come").insertAdjacentHTML("beforeend", "<tr><td>"  +no+"</td><td>" + firstname +"</td><td>"+ pass + "</td></tr>")
+}
+    </script>
+    
+</body>
+</html>

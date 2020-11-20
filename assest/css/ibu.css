@@ -1,0 +1,48 @@
+body{
+    background-color: green;
+}
+
+img{
+    width: 100%;
+    border: 8px;
+}
+
+h1{
+color: gold;
+text-align: center;
+font-size: 30px;
+}
+
+ul{
+    color: red;
+}
+
+.ou{
+    color: rgb(255, 192, 192);
+    float: right;
+}
+
+h3{
+    color: burlywood;
+    border-color: yellow;
+    border-width: 10px; 
+    text-align: center; 
+    
+}
+
+
+h2{
+   color: blanchedalmond; 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}

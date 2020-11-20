@@ -1,0 +1,31 @@
+img{
+    width: 100%;
+    border: 8px
+
+}
+h3{
+    color: goldenrod;
+}
+.h3{
+    color: goldenrod;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+strong{
+    color: teal;
+}
+p span{
+    font-weight: bold;
+}
+
+    p span{
+    font-weight: bold;
+}
+    p span{
+    font-weight: bold;
+}
